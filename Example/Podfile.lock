@@ -1,0 +1,56 @@
+PODS:
+  - Masonry (1.1.0)
+  - RCLiveVideoLib (2.1.0.5):
+    - RongCloudIM/IMLib
+    - RongCloudRTC/RongRTCLib
+  - RCLiveVideoScreenShare (0.0.1):
+    - RCLiveVideoLib
+  - RongCloudIM/ChatRoom (5.2.1):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/CustomerService (5.2.1):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/Discussion (5.2.1):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/IMLib (5.2.1):
+    - RongCloudIM/ChatRoom
+    - RongCloudIM/CustomerService
+    - RongCloudIM/Discussion
+    - RongCloudIM/IMLibCore
+    - RongCloudIM/Location
+    - RongCloudIM/PublicService
+  - RongCloudIM/IMLibCore (5.2.1)
+  - RongCloudIM/Location (5.2.1):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/PublicService (5.2.1):
+    - RongCloudIM/IMLibCore
+  - RongCloudRTC/RongRTCLib (5.2.1.1):
+    - RongCloudIM/IMLibCore (>= 5.1.3)
+  - RongCloudRTC/RongRTCReplayKitExt (5.2.1.1)
+
+DEPENDENCIES:
+  - Masonry
+  - RCLiveVideoLib
+  - RCLiveVideoScreenShare (from `../`)
+  - RongCloudRTC/RongRTCReplayKitExt
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - RCLiveVideoLib
+    - RongCloudIM
+    - RongCloudRTC
+
+EXTERNAL SOURCES:
+  RCLiveVideoScreenShare:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RCLiveVideoLib: a320695b4a5ce881e9d0d04093aca999ab5e9adf
+  RCLiveVideoScreenShare: 05924b8f417705c88b10fc18708f27d949296f14
+  RongCloudIM: 1ebe6a394cf5289825c2ee62a63068bdc34856f4
+  RongCloudRTC: 08a50f93af8ecc6573c01dd8a4c80da486802818
+
+PODFILE CHECKSUM: c618e02be31083732f64a3f85028016575309af5
+
+COCOAPODS: 1.11.3

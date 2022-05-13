@@ -1,0 +1,22 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'RCLiveVideoScreenShare_Example' do
+  pod 'RCLiveVideoScreenShare', :path => '../'
+  
+  pod 'Masonry'
+  pod 'RCLiveVideoLib'#, :path => '../../rclivevideolib-ios'
+
+  target 'RCLiveVideoScreenShare_Tests' do
+    inherit! :search_paths
+  end
+end
+
+target 'RCSceneScreenShare' do
+  
+  use_frameworks!
+  
+  pod 'RongCloudRTC/RongRTCReplayKitExt'
+  
+end
